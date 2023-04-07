@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'weather.dart';
 import 'rps.dart';
-// import 'yet_another_tab_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Altynshy praktika',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -23,9 +22,9 @@ class MyApp extends StatelessWidget {
             title: Text('Weather App'),
             bottom: TabBar(
               tabs: [
-                Tab(text: 'Tab 1'),
-                Tab(text: 'Tab 2'),
-                Tab(text: 'Tab 3'),
+                Tab(text: 'Aua-raiy'),
+                Tab(text: 'RPS'),
+                Tab(text: 'RPS'),
               ],
             ),
           ),
@@ -33,7 +32,7 @@ class MyApp extends StatelessWidget {
             children: [
               Weather(), // using the Weather widget from weather.dart
               MyKNB(),
-              //YetAnotherTabView(),
+              MyKNB(),
             ],
           ),
         ),
